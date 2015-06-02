@@ -1,0 +1,200 @@
+﻿<local:BindablePage
+    x:Class="PlanningBudget.Windows.Views.AddIncomeView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PlanningBudget.Windows.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:my="using:PlanningBudget.Windows.Views.Controls"
+    mc:Ignorable="d"
+    DataContext="{Binding AddIncome, Source={StaticResource Locator}}">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary
+                    Source="/Themes/Dictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush
+                Stretch="Fill"
+                ImageSource="ms-appx:///Assets/bg.png" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="4*" />
+            <RowDefinition
+                Height="16*" />
+            <RowDefinition
+                Height="4*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition
+                Width="5*"
+                MinWidth="50" />
+            <ColumnDefinition
+                Width="18*"
+                MinWidth="152" />
+            <ColumnDefinition
+                Width="36*" />
+        </Grid.ColumnDefinitions>
+
+        <my:HeaderControl
+            Grid.ColumnSpan="3"
+            Text="Add expense"
+            BackCommand="{Binding GoBackCommand, Mode=OneTime}" />
+
+        <Grid
+            Grid.Column="1"
+            Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height="*" />
+                <RowDefinition
+                    Height="*" />
+                <RowDefinition
+                    Height="*" />
+                <RowDefinition
+                    Height="*" />
+                <RowDefinition
+                    Height="*" />
+                <RowDefinition
+                    Height="*" />
+                <RowDefinition
+                    Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+                    Width="7*"
+                    MinWidth="152" />
+                <ColumnDefinition
+                    Width="2*"
+                    MinWidth="48" />
+                <ColumnDefinition
+                    Width="9*"
+                    MinWidth="200" />
+            </Grid.ColumnDefinitions>
+
+            <StackPanel
+                Grid.Column="0"
+                Grid.Row="0"
+                Grid.ColumnSpan="3"
+                Margin="6">
+                <TextBlock
+                    Style="{StaticResource CaptionStyle}"
+                    Text="Name" />
+                <TextBox
+                    Text="{Binding Path=Name, Mode=TwoWay}"
+                    Style="{StaticResource TextBoxStyle}" />
+            </StackPanel>
+
+            <StackPanel
+                Grid.Column="0"
+                Grid.Row="1"
+                Grid.ColumnSpan="3"
+                Margin="6">
+                <TextBlock
+                    Style="{StaticResource CaptionStyle}"
+                    Text="Income" />
+                <TextBox
+                    Text="{Binding Path=Income, Mode=TwoWay}"
+                    Style="{StaticResource TextBoxStyle}" />
+            </StackPanel>
+
+            <StackPanel
+                Grid.Column="0"
+                Grid.Row="2"
+                Grid.ColumnSpan="3"
+                Margin="6">
+                <TextBlock
+                    Style="{StaticResource CaptionStyle}"
+                    Text="Profile" />
+                <ComboBox
+                    Style="{StaticResource ComboBoxStyle}"
+                    ItemsSource="{Binding Path=Profiles, Mode=TwoWay}"
+                    SelectedItem="{Binding Path=Profile, Mode=TwoWay}"
+                    ItemTemplate="{StaticResource ComboBoxProfileTemplate}" />
+            </StackPanel>
+
+            <StackPanel
+                Grid.Column="0"
+                Grid.Row="3"
+                Grid.ColumnSpan="3"
+                Margin="6">
+                <TextBlock
+                    Style="{StaticResource CaptionStyle}"
+                    Text="Account" />
+                <ComboBox
+                    Style="{StaticResource ComboBoxStyle}"
+                    ItemsSource="{Binding Path=Accounts, Mode=TwoWay}"
+                    SelectedItem="{Binding Path=Account, Mode=TwoWay}"
+                    ItemTemplate="{StaticResource ComboBoxProfileTemplate}" />
+            </StackPanel>
+
+            <StackPanel
+                Grid.Column="0"
+                Grid.Row="4"
+                Grid.ColumnSpan="2"
+                Margin="6">
+                <TextBlock
+                    Style="{StaticResource CaptionStyle}"
+                    Text="Color" />
+                <ComboBox
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    Style="{StaticResource ComboBoxStyle}"
+                    ItemTemplate="{StaticResource ColorTemplate}"
+                    ItemsSource="{Binding Path=IconColors}"
+                    SelectedItem="{Binding Path=IconColor, Mode=TwoWay}" />
+            </StackPanel>
+
+            <StackPanel
+                Grid.Column="2"
+                Grid.Row="4"
+                Margin="6">
+                <TextBlock
+                    Style="{StaticResource CaptionStyle}"
+                    Text="Icon" />
+                <ComboBox
+                    Grid.Row="3"
+                    Grid.Column="3"
+                    Grid.ColumnSpan="1"
+                    Style="{StaticResource ComboBoxStyle}"
+                    ItemTemplate="{StaticResource IconTemplate}"
+                    ItemsSource="{Binding Path=Icons}"
+                    SelectedItem="{Binding Path=Icon, Mode=TwoWay}" />
+            </StackPanel>
+
+            <Grid
+                Grid.ColumnSpan="3"
+                Grid.Row="5">
+                <my:MyDatePicker DataContext="{Binding Date}"/>
+            </Grid>
+
+            <Button
+                Content="Save"
+                Grid.Column="0"
+                Grid.ColumnSpan="{Binding Path=SaveButtonColumnSpan, Mode=TwoWay}"
+                Grid.Row="6"
+                Style="{StaticResource ButtonStyle}"
+                Command="{Binding Path=SaveAndReturnCommand, Mode=OneTime}" />
+
+            <Button
+                Content="Save and add next"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                Grid.Row="6"
+                Style="{StaticResource ButtonStyle}"
+                Visibility="{Binding Path=ShowSaveAndAdd, Mode=TwoWay}"
+                Command="{Binding Path=SaveAndContinueCommand, Mode=OneTime}" />
+        </Grid>
+
+    </Grid>
+
+</local:BindablePage>
+

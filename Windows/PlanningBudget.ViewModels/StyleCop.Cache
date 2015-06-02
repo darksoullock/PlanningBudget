@@ -1,0 +1,2379 @@
+<stylecopresultscache>
+  <version>12</version>
+  <sourcecode name="CategoryViewModel.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2014.04.01 11:18:24.000</styleCop>
+      <settingsFile>2012.09.27 22:03:32.000</settingsFile>
+      <sourceFile>2015.03.16 15:35:16.950</sourceFile>
+      <parser>2014.04.01 11:18:24.000</parser>
+      <StyleCop.CSharp.DocumentationRules>2014.04.01 11:18:24.000</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-2064112440</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2014.04.01 11:18:24.000</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2014.04.01 11:18:24.000</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2014.04.01 11:18:24.000</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2014.04.01 11:18:24.000</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2014.04.01 11:18:24.000</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2014.04.01 11:18:24.000</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="SystemUsingDirectivesMustBePlacedBeforeOtherUsingDirectives" ruleCheckId="SA1208">
+        <context>System using directives must be placed before all other using directives.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The field must have an access modifier.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to GetIcons must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>19</line>
+        <index>642</index>
+        <endIndex>649</endIndex>
+        <startLine>19</startLine>
+        <startColumn>26</startColumn>
+        <endLine>19</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to GoBackCommand must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>20</line>
+        <index>667</index>
+        <endIndex>679</endIndex>
+        <startLine>20</startLine>
+        <startColumn>13</startColumn>
+        <endLine>20</endLine>
+        <endColumn>25</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to GoBack must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>20</line>
+        <index>700</index>
+        <endIndex>705</endIndex>
+        <startLine>20</startLine>
+        <startColumn>46</startColumn>
+        <endLine>20</endLine>
+        <endColumn>51</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to SaveAndReturnCommand must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>21</line>
+        <index>722</index>
+        <endIndex>741</endIndex>
+        <startLine>21</startLine>
+        <startColumn>13</startColumn>
+        <endLine>21</endLine>
+        <endColumn>32</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to SaveAndReturn must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>21</line>
+        <index>762</index>
+        <endIndex>774</endIndex>
+        <startLine>21</startLine>
+        <startColumn>53</startColumn>
+        <endLine>21</endLine>
+        <endColumn>65</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>24</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>26</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>28</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>30</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>32</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>34</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>36</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>38</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>40</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>42</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to GoBack must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>46</line>
+        <index>1465</index>
+        <endIndex>1470</endIndex>
+        <startLine>46</startLine>
+        <startColumn>17</startColumn>
+        <endLine>46</endLine>
+        <endColumn>22</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Save must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>44</line>
+        <index>1425</index>
+        <endIndex>1428</endIndex>
+        <startLine>44</startLine>
+        <startColumn>17</startColumn>
+        <endLine>44</endLine>
+        <endColumn>20</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>50</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>52</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Name must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>55</line>
+        <index>1646</index>
+        <endIndex>1649</endIndex>
+        <startLine>55</startLine>
+        <startColumn>23</startColumn>
+        <endLine>55</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Name must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>55</line>
+        <index>1662</index>
+        <endIndex>1665</endIndex>
+        <startLine>55</startLine>
+        <startColumn>39</startColumn>
+        <endLine>55</endLine>
+        <endColumn>42</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Type must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>56</line>
+        <index>1708</index>
+        <endIndex>1711</endIndex>
+        <startLine>56</startLine>
+        <startColumn>23</startColumn>
+        <endLine>56</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Type must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>56</line>
+        <index>1724</index>
+        <endIndex>1727</endIndex>
+        <startLine>56</startLine>
+        <startColumn>39</startColumn>
+        <endLine>56</endLine>
+        <endColumn>42</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Icon must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>57</line>
+        <index>1770</index>
+        <endIndex>1773</endIndex>
+        <startLine>57</startLine>
+        <startColumn>23</startColumn>
+        <endLine>57</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Icon must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>57</line>
+        <index>1786</index>
+        <endIndex>1789</endIndex>
+        <startLine>57</startLine>
+        <startColumn>39</startColumn>
+        <endLine>57</endLine>
+        <endColumn>42</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to IconColor must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>58</line>
+        <index>1832</index>
+        <endIndex>1840</endIndex>
+        <startLine>58</startLine>
+        <startColumn>23</startColumn>
+        <endLine>58</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>62</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Name must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>64</line>
+        <index>1950</index>
+        <endIndex>1953</endIndex>
+        <startLine>64</startLine>
+        <startColumn>13</startColumn>
+        <endLine>64</endLine>
+        <endColumn>16</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Type must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>65</line>
+        <index>1976</index>
+        <endIndex>1979</endIndex>
+        <startLine>65</startLine>
+        <startColumn>13</startColumn>
+        <endLine>65</endLine>
+        <endColumn>16</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Icon must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>66</line>
+        <index>2002</index>
+        <endIndex>2005</endIndex>
+        <startLine>66</startLine>
+        <startColumn>13</startColumn>
+        <endLine>66</endLine>
+        <endColumn>16</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to IconColor must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>67</line>
+        <index>2028</index>
+        <endIndex>2036</endIndex>
+        <startLine>67</startLine>
+        <startColumn>13</startColumn>
+        <endLine>67</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RaisePropertyChanged must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>68</line>
+        <index>2059</index>
+        <endIndex>2078</endIndex>
+        <startLine>68</startLine>
+        <startColumn>13</startColumn>
+        <endLine>68</endLine>
+        <endColumn>32</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RaisePropertyChanged must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>69</line>
+        <index>2102</index>
+        <endIndex>2121</endIndex>
+        <startLine>69</startLine>
+        <startColumn>13</startColumn>
+        <endLine>69</endLine>
+        <endColumn>32</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RaisePropertyChanged must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>70</line>
+        <index>2145</index>
+        <endIndex>2164</endIndex>
+        <startLine>70</startLine>
+        <startColumn>13</startColumn>
+        <endLine>70</endLine>
+        <endColumn>32</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RaisePropertyChanged must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>71</line>
+        <index>2188</index>
+        <endIndex>2207</endIndex>
+        <startLine>71</startLine>
+        <startColumn>13</startColumn>
+        <endLine>71</endLine>
+        <endColumn>32</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>74</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="SA1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>80</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
+        <context>Variable names and private field names must start with a lower-case letter: Icons.</context>
+        <line>76</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>84</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to navigationService must begin with the 'this.', 'base.', 'object.' or 'CategoryViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>86</line>
+        <index>2575</index>
+        <endIndex>2591</endIndex>
+        <startLine>86</startLine>
+        <startColumn>13</startColumn>
+        <endLine>86</endLine>
+        <endColumn>29</endColumn>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <project key="-458029635">
+    <configuration>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</configuration>
+  </project>
+  <sourcecode name="HomeViewModel.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2014.04.01 11:18:24.000</styleCop>
+      <settingsFile>2012.09.27 22:03:32.000</settingsFile>
+      <sourceFile>2015.04.08 16:23:52.335</sourceFile>
+      <parser>2014.04.01 11:18:24.000</parser>
+      <StyleCop.CSharp.DocumentationRules>2014.04.01 11:18:24.000</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-2064112440</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2014.04.01 11:18:24.000</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2014.04.01 11:18:24.000</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2014.04.01 11:18:24.000</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2014.04.01 11:18:24.000</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2014.04.01 11:18:24.000</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2014.04.01 11:18:24.000</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="SA1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="SA1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="SA1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="SA1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>7</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="SA1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>7</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="SA1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="SA1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="SA1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>13</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="SystemUsingDirectivesMustBePlacedBeforeOtherUsingDirectives" ruleCheckId="SA1208">
+        <context>System using directives must be placed before all other using directives.</context>
+        <line>13</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="SA1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="SA1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>16</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="SA1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>16</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>17</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>18</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="SA1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>18</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>19</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>23</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>25</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The field must have an access modifier.</context>
+        <line>25</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>27</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="SingleLineCommentMustBePrecededByBlankLine" ruleCheckId="SA1515">
+        <context>A single-line comment must be preceded by a blank line or another single-line comment, or must be the first item in its scope. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>54</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All constructors must be placed after all fields.</context>
+        <line>255</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All constructors must be placed after all fields.</context>
+        <line>257</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All constructors must be placed after all fields.</context>
+        <line>259</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to EditCategoryCommand must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>31</line>
+        <index>842</index>
+        <endIndex>860</endIndex>
+        <startLine>31</startLine>
+        <startColumn>13</startColumn>
+        <endLine>31</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to GoToEditCategory must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>31</line>
+        <index>881</index>
+        <endIndex>896</endIndex>
+        <startLine>31</startLine>
+        <startColumn>52</startColumn>
+        <endLine>31</endLine>
+        <endColumn>67</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to AddTransactionCommand must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>32</line>
+        <index>913</index>
+        <endIndex>933</endIndex>
+        <startLine>32</startLine>
+        <startColumn>13</startColumn>
+        <endLine>32</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to GoToAddTransaction must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>32</line>
+        <index>954</index>
+        <endIndex>971</endIndex>
+        <startLine>32</startLine>
+        <startColumn>54</startColumn>
+        <endLine>32</endLine>
+        <endColumn>71</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to DeleteCategoryCommand must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>33</line>
+        <index>988</index>
+        <endIndex>1008</endIndex>
+        <startLine>33</startLine>
+        <startColumn>13</startColumn>
+        <endLine>33</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to DeleteCategory must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>33</line>
+        <index>1029</index>
+        <endIndex>1042</endIndex>
+        <startLine>33</startLine>
+        <startColumn>54</startColumn>
+        <endLine>33</endLine>
+        <endColumn>67</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to GoToProfilesCommand must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>34</line>
+        <index>1059</index>
+        <endIndex>1077</endIndex>
+        <startLine>34</startLine>
+        <startColumn>13</startColumn>
+        <endLine>34</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to GoToProfiles must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>34</line>
+        <index>1098</index>
+        <endIndex>1109</endIndex>
+        <startLine>34</startLine>
+        <startColumn>52</startColumn>
+        <endLine>34</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to GoToTransactionsCommand must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>35</line>
+        <index>1126</index>
+        <endIndex>1148</endIndex>
+        <startLine>35</startLine>
+        <startColumn>13</startColumn>
+        <endLine>35</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to GoToTransactions must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>35</line>
+        <index>1177</index>
+        <endIndex>1192</endIndex>
+        <startLine>35</startLine>
+        <startColumn>64</startColumn>
+        <endLine>35</endLine>
+        <endColumn>79</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to AccounsClickCommand must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>36</line>
+        <index>1209</index>
+        <endIndex>1227</endIndex>
+        <startLine>36</startLine>
+        <startColumn>13</startColumn>
+        <endLine>36</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to AccounsClick must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>36</line>
+        <index>1256</index>
+        <endIndex>1267</endIndex>
+        <startLine>36</startLine>
+        <startColumn>60</startColumn>
+        <endLine>36</endLine>
+        <endColumn>71</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to ExpensesClickCommand must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>37</line>
+        <index>1284</index>
+        <endIndex>1303</endIndex>
+        <startLine>37</startLine>
+        <startColumn>13</startColumn>
+        <endLine>37</endLine>
+        <endColumn>32</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to ExpensesClick must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>37</line>
+        <index>1332</index>
+        <endIndex>1344</endIndex>
+        <startLine>37</startLine>
+        <startColumn>61</startColumn>
+        <endLine>37</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to IncomesClickCommand must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>38</line>
+        <index>1361</index>
+        <endIndex>1379</endIndex>
+        <startLine>38</startLine>
+        <startColumn>13</startColumn>
+        <endLine>38</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to IncomesClick must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>38</line>
+        <index>1408</index>
+        <endIndex>1419</endIndex>
+        <startLine>38</startLine>
+        <startColumn>60</startColumn>
+        <endLine>38</endLine>
+        <endColumn>71</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Expenses must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>40</line>
+        <index>1438</index>
+        <endIndex>1445</endIndex>
+        <startLine>40</startLine>
+        <startColumn>13</startColumn>
+        <endLine>40</endLine>
+        <endColumn>20</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Incomes must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>41</line>
+        <index>1511</index>
+        <endIndex>1517</endIndex>
+        <startLine>41</startLine>
+        <startColumn>13</startColumn>
+        <endLine>41</endLine>
+        <endColumn>19</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Accounts must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>42</line>
+        <index>1582</index>
+        <endIndex>1589</endIndex>
+        <startLine>42</startLine>
+        <startColumn>13</startColumn>
+        <endLine>42</endLine>
+        <endColumn>20</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to LoadCategories must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>44</line>
+        <index>1657</index>
+        <endIndex>1670</endIndex>
+        <startLine>44</startLine>
+        <startColumn>13</startColumn>
+        <endLine>44</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to LoadProfiles must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>45</line>
+        <index>1688</index>
+        <endIndex>1699</endIndex>
+        <startLine>45</startLine>
+        <startColumn>13</startColumn>
+        <endLine>45</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to AccountAdded must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>47</line>
+        <index>1754</index>
+        <endIndex>1765</endIndex>
+        <startLine>47</startLine>
+        <startColumn>48</startColumn>
+        <endLine>47</endLine>
+        <endColumn>59</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to AccountChanged must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>48</line>
+        <index>1818</index>
+        <endIndex>1831</endIndex>
+        <startLine>48</startLine>
+        <startColumn>50</startColumn>
+        <endLine>48</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to ExpenseAdded must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>49</line>
+        <index>1882</index>
+        <endIndex>1893</endIndex>
+        <startLine>49</startLine>
+        <startColumn>48</startColumn>
+        <endLine>49</endLine>
+        <endColumn>59</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to ExpenseChanged must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>50</line>
+        <index>1946</index>
+        <endIndex>1959</endIndex>
+        <startLine>50</startLine>
+        <startColumn>50</startColumn>
+        <endLine>50</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to ProfileAdded must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>51</line>
+        <index>2010</index>
+        <endIndex>2021</endIndex>
+        <startLine>51</startLine>
+        <startColumn>48</startColumn>
+        <endLine>51</endLine>
+        <endColumn>59</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to ProfileChanged must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>52</line>
+        <index>2074</index>
+        <endIndex>2087</endIndex>
+        <startLine>52</startLine>
+        <startColumn>50</startColumn>
+        <endLine>52</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to ProfileDeleted must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>53</line>
+        <index>2140</index>
+        <endIndex>2153</endIndex>
+        <startLine>53</startLine>
+        <startColumn>50</startColumn>
+        <endLine>53</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SingleLineCommentsMustBeginWithSingleSpace" ruleCheckId="SA1005">
+        <context>The comment must start with a single space. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>54</line>
+        <index>2169</index>
+        <endIndex>2193</endIndex>
+        <startLine>54</startLine>
+        <startColumn>13</startColumn>
+        <endLine>54</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>57</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The method must have an access modifier.</context>
+        <line>57</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>75</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>77</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>79</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>81</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>83</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>119</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustBeOrderedByAccess" ruleCheckId="SA1202">
+        <context>All private methods must be placed after all public methods.</context>
+        <line>121</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>127</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustBeOrderedByAccess" ruleCheckId="SA1202">
+        <context>All private methods must be placed after all public methods.</context>
+        <line>129</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>135</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>137</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustBeOrderedByAccess" ruleCheckId="SA1202">
+        <context>All private methods must be placed after all public methods.</context>
+        <line>139</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>148</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>155</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>175</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>182</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>189</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>196</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>232</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>261</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>267</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>273</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustBeOrderedByAccess" ruleCheckId="SA1202">
+        <context>All private methods must be placed after all protected methods.</context>
+        <line>279</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>299</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>308</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all properties.</context>
+        <line>365</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Profiles must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>59</line>
+        <index>2319</index>
+        <endIndex>2326</endIndex>
+        <startLine>59</startLine>
+        <startColumn>21</startColumn>
+        <endLine>59</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>61</line>
+        <index>2431</index>
+        <endIndex>2431</endIndex>
+        <startLine>61</startLine>
+        <startColumn>23</startColumn>
+        <endLine>61</endLine>
+        <endColumn>23</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>65</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Profiles must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>67</line>
+        <index>2655</index>
+        <endIndex>2662</endIndex>
+        <startLine>67</startLine>
+        <startColumn>13</startColumn>
+        <endLine>67</endLine>
+        <endColumn>20</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Profiles must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>67</line>
+        <index>2671</index>
+        <endIndex>2678</endIndex>
+        <startLine>67</startLine>
+        <startColumn>29</startColumn>
+        <endLine>67</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=&gt;' is invalid.</context>
+        <line>67</line>
+        <index>2696</index>
+        <endIndex>2697</endIndex>
+        <startLine>67</startLine>
+        <startColumn>54</startColumn>
+        <endLine>67</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=&gt;' is invalid.</context>
+        <line>67</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '==' is invalid.</context>
+        <line>67</line>
+        <index>2716</index>
+        <endIndex>2717</endIndex>
+        <startLine>67</startLine>
+        <startColumn>74</startColumn>
+        <endLine>67</endLine>
+        <endColumn>75</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '==' is invalid.</context>
+        <line>67</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>70</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Profiles must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>72</line>
+        <index>2850</index>
+        <endIndex>2857</endIndex>
+        <startLine>72</startLine>
+        <startColumn>13</startColumn>
+        <endLine>72</endLine>
+        <endColumn>20</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>75</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>77</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>79</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>81</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>83</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>85</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The method must have an access modifier.</context>
+        <line>85</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Accounts must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>87</line>
+        <index>3392</index>
+        <endIndex>3399</endIndex>
+        <startLine>87</startLine>
+        <startColumn>13</startColumn>
+        <endLine>87</endLine>
+        <endColumn>20</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>90</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The method must have an access modifier.</context>
+        <line>90</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Accounts must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>92</line>
+        <index>3570</index>
+        <endIndex>3577</endIndex>
+        <startLine>92</startLine>
+        <startColumn>21</startColumn>
+        <endLine>92</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>102</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The method must have an access modifier.</context>
+        <line>102</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Expenses must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>104</line>
+        <index>4030</index>
+        <endIndex>4037</endIndex>
+        <startLine>104</startLine>
+        <startColumn>13</startColumn>
+        <endLine>104</endLine>
+        <endColumn>20</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>107</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The method must have an access modifier.</context>
+        <line>107</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Expenses must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>109</line>
+        <index>4208</index>
+        <endIndex>4215</endIndex>
+        <startLine>109</startLine>
+        <startColumn>21</startColumn>
+        <endLine>109</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>119</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>121</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsMustNotBeOmitted" ruleCheckId="SA1503">
+        <context>The body of the if statement must be wrapped in opening and closing curly brackets.</context>
+        <line>124</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to navigationService must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>124</line>
+        <index>4783</index>
+        <endIndex>4799</endIndex>
+        <startLine>124</startLine>
+        <startColumn>17</startColumn>
+        <endLine>124</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseStringEmptyForEmptyStrings" ruleCheckId="SA1122">
+        <context>Use string.Empty rather than "".</context>
+        <line>124</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>127</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>129</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsMustNotBeOmitted" ruleCheckId="SA1503">
+        <context>The body of the if statement must be wrapped in opening and closing curly brackets.</context>
+        <line>132</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to navigationService must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>132</line>
+        <index>5063</index>
+        <endIndex>5079</endIndex>
+        <startLine>132</startLine>
+        <startColumn>17</startColumn>
+        <endLine>132</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseStringEmptyForEmptyStrings" ruleCheckId="SA1122">
+        <context>Use string.Empty rather than "".</context>
+        <line>132</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>135</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementMustNotBeOnSingleLine" ruleCheckId="SA1502">
+        <context>The property must not be placed on a single line. The opening and closing curly brackets must each be placed on their own line.</context>
+        <line>135</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="ElementMustBeginWithUpperCaseLetter" ruleCheckId="SA1300">
+        <context>property names begin with an upper-case letter: isOpen.</context>
+        <line>135</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>137</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>139</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="StatementMustNotUseUnnecessaryParenthesis" ruleCheckId="SA1119">
+        <context>The line contains unnecessary parenthesis.</context>
+        <line>141</line>
+        <index>5345</index>
+        <endIndex>5380</endIndex>
+        <startLine>141</startLine>
+        <startColumn>27</startColumn>
+        <endLine>141</endLine>
+        <endColumn>62</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="StatementMustNotUseUnnecessaryParenthesis" ruleCheckId="SA1119">
+        <context>The line contains unnecessary parenthesis.</context>
+        <line>141</line>
+        <index>5346</index>
+        <endIndex>5356</endIndex>
+        <startLine>141</startLine>
+        <startColumn>28</startColumn>
+        <endLine>141</endLine>
+        <endColumn>38</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to navigationService must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>144</line>
+        <index>5451</index>
+        <endIndex>5467</endIndex>
+        <startLine>144</startLine>
+        <startColumn>17</startColumn>
+        <endLine>144</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseStringEmptyForEmptyStrings" ruleCheckId="SA1122">
+        <context>Use string.Empty rather than "".</context>
+        <line>144</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>148</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>150</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to navigationService must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>152</line>
+        <index>5657</index>
+        <endIndex>5673</endIndex>
+        <startLine>152</startLine>
+        <startColumn>13</startColumn>
+        <endLine>152</endLine>
+        <endColumn>29</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>155</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>157</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to navigationService must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>161</line>
+        <index>5903</index>
+        <endIndex>5919</endIndex>
+        <startLine>161</startLine>
+        <startColumn>17</startColumn>
+        <endLine>161</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to SelectedCategoryName must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>161</line>
+        <index>5950</index>
+        <endIndex>5969</endIndex>
+        <startLine>161</startLine>
+        <startColumn>64</startColumn>
+        <endLine>161</endLine>
+        <endColumn>83</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedAccount must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>159</line>
+        <index>5850</index>
+        <endIndex>5864</endIndex>
+        <startLine>159</startLine>
+        <startColumn>17</startColumn>
+        <endLine>159</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to navigationService must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>166</line>
+        <index>6060</index>
+        <endIndex>6076</endIndex>
+        <startLine>166</startLine>
+        <startColumn>17</startColumn>
+        <endLine>166</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to SelectedCategoryName must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>166</line>
+        <index>6107</index>
+        <endIndex>6126</endIndex>
+        <startLine>166</startLine>
+        <startColumn>64</startColumn>
+        <endLine>166</endLine>
+        <endColumn>83</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedExpense must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>164</line>
+        <index>6007</index>
+        <endIndex>6021</endIndex>
+        <startLine>164</startLine>
+        <startColumn>17</startColumn>
+        <endLine>164</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to navigationService must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>171</line>
+        <index>6216</index>
+        <endIndex>6232</endIndex>
+        <startLine>171</startLine>
+        <startColumn>17</startColumn>
+        <endLine>171</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to SelectedCategoryName must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>171</line>
+        <index>6262</index>
+        <endIndex>6281</endIndex>
+        <startLine>171</startLine>
+        <startColumn>63</startColumn>
+        <endLine>171</endLine>
+        <endColumn>82</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedIncome must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>169</line>
+        <index>6164</index>
+        <endIndex>6177</endIndex>
+        <startLine>169</startLine>
+        <startColumn>17</startColumn>
+        <endLine>169</endLine>
+        <endColumn>30</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>175</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>177</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to navigationService must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>179</line>
+        <index>6441</index>
+        <endIndex>6457</endIndex>
+        <startLine>179</startLine>
+        <startColumn>13</startColumn>
+        <endLine>179</endLine>
+        <endColumn>29</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>182</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>184</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to navigationService must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>186</line>
+        <index>6637</index>
+        <endIndex>6653</endIndex>
+        <startLine>186</startLine>
+        <startColumn>13</startColumn>
+        <endLine>186</endLine>
+        <endColumn>29</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>189</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>191</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to navigationService must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>193</line>
+        <index>6852</index>
+        <endIndex>6868</endIndex>
+        <startLine>193</startLine>
+        <startColumn>13</startColumn>
+        <endLine>193</endLine>
+        <endColumn>29</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>196</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>198</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
+        <context>Variable names and private field names must start with a lower-case letter: SelectedCategoryName.</context>
+        <line>200</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Accounts must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>206</line>
+        <index>7312</index>
+        <endIndex>7319</endIndex>
+        <startLine>206</startLine>
+        <startColumn>21</startColumn>
+        <endLine>206</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedAccount must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>206</line>
+        <index>7330</index>
+        <endIndex>7344</endIndex>
+        <startLine>206</startLine>
+        <startColumn>39</startColumn>
+        <endLine>206</endLine>
+        <endColumn>53</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedAccount must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>208</line>
+        <index>7468</index>
+        <endIndex>7482</endIndex>
+        <startLine>208</startLine>
+        <startColumn>21</startColumn>
+        <endLine>208</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RaisePropertyChanged must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>209</line>
+        <index>7511</index>
+        <endIndex>7530</endIndex>
+        <startLine>209</startLine>
+        <startColumn>21</startColumn>
+        <endLine>209</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedAccount must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>204</line>
+        <index>7250</index>
+        <endIndex>7264</endIndex>
+        <startLine>204</startLine>
+        <startColumn>21</startColumn>
+        <endLine>204</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Incomes must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>214</line>
+        <index>7655</index>
+        <endIndex>7661</endIndex>
+        <startLine>214</startLine>
+        <startColumn>21</startColumn>
+        <endLine>214</endLine>
+        <endColumn>27</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedIncome must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>214</line>
+        <index>7672</index>
+        <endIndex>7685</endIndex>
+        <startLine>214</startLine>
+        <startColumn>38</startColumn>
+        <endLine>214</endLine>
+        <endColumn>51</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedIncome must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>216</line>
+        <index>7808</index>
+        <endIndex>7821</endIndex>
+        <startLine>216</startLine>
+        <startColumn>21</startColumn>
+        <endLine>216</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RaisePropertyChanged must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>217</line>
+        <index>7850</index>
+        <endIndex>7869</endIndex>
+        <startLine>217</startLine>
+        <startColumn>21</startColumn>
+        <endLine>217</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedIncome must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>212</line>
+        <index>7594</index>
+        <endIndex>7607</endIndex>
+        <startLine>212</startLine>
+        <startColumn>21</startColumn>
+        <endLine>212</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Expenses must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>222</line>
+        <index>7994</index>
+        <endIndex>8001</endIndex>
+        <startLine>222</startLine>
+        <startColumn>21</startColumn>
+        <endLine>222</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedExpense must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>222</line>
+        <index>8012</index>
+        <endIndex>8026</endIndex>
+        <startLine>222</startLine>
+        <startColumn>39</startColumn>
+        <endLine>222</endLine>
+        <endColumn>53</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedExpense must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>224</line>
+        <index>8150</index>
+        <endIndex>8164</endIndex>
+        <startLine>224</startLine>
+        <startColumn>21</startColumn>
+        <endLine>224</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RaisePropertyChanged must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>225</line>
+        <index>8193</index>
+        <endIndex>8212</endIndex>
+        <startLine>225</startLine>
+        <startColumn>21</startColumn>
+        <endLine>225</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedExpense must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>220</line>
+        <index>7932</index>
+        <endIndex>7946</endIndex>
+        <startLine>220</startLine>
+        <startColumn>21</startColumn>
+        <endLine>220</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RaisePropertyChanged must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>228</line>
+        <index>8272</index>
+        <endIndex>8291</endIndex>
+        <startLine>228</startLine>
+        <startColumn>17</startColumn>
+        <endLine>228</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>232</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Accounts must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>238</line>
+        <index>8521</index>
+        <endIndex>8528</endIndex>
+        <startLine>238</startLine>
+        <startColumn>28</startColumn>
+        <endLine>238</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedAccount must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>238</line>
+        <index>8530</index>
+        <endIndex>8544</endIndex>
+        <startLine>238</startLine>
+        <startColumn>37</startColumn>
+        <endLine>238</endLine>
+        <endColumn>51</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedAccount must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>236</line>
+        <index>8453</index>
+        <endIndex>8467</endIndex>
+        <startLine>236</startLine>
+        <startColumn>21</startColumn>
+        <endLine>236</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Incomes must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>243</line>
+        <index>8662</index>
+        <endIndex>8668</endIndex>
+        <startLine>243</startLine>
+        <startColumn>28</startColumn>
+        <endLine>243</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedIncome must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>243</line>
+        <index>8670</index>
+        <endIndex>8683</endIndex>
+        <startLine>243</startLine>
+        <startColumn>36</startColumn>
+        <endLine>243</endLine>
+        <endColumn>49</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedIncome must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>241</line>
+        <index>8595</index>
+        <endIndex>8608</endIndex>
+        <startLine>241</startLine>
+        <startColumn>21</startColumn>
+        <endLine>241</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Expenses must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>248</line>
+        <index>8802</index>
+        <endIndex>8809</endIndex>
+        <startLine>248</startLine>
+        <startColumn>28</startColumn>
+        <endLine>248</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedExpense must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>248</line>
+        <index>8811</index>
+        <endIndex>8825</endIndex>
+        <startLine>248</startLine>
+        <startColumn>37</startColumn>
+        <endLine>248</endLine>
+        <endColumn>51</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedExpense must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>246</line>
+        <index>8734</index>
+        <endIndex>8748</endIndex>
+        <startLine>246</startLine>
+        <startColumn>21</startColumn>
+        <endLine>246</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>255</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>257</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>259</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>261</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedAccount must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>263</line>
+        <index>9120</index>
+        <endIndex>9134</endIndex>
+        <startLine>263</startLine>
+        <startColumn>26</startColumn>
+        <endLine>263</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to ListSelectetionChanged must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>264</line>
+        <index>9158</index>
+        <endIndex>9179</endIndex>
+        <startLine>264</startLine>
+        <startColumn>19</startColumn>
+        <endLine>264</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedAccount must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>264</line>
+        <index>9185</index>
+        <endIndex>9199</endIndex>
+        <startLine>264</startLine>
+        <startColumn>46</startColumn>
+        <endLine>264</endLine>
+        <endColumn>60</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>267</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedIncome must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>269</line>
+        <index>9297</index>
+        <endIndex>9310</endIndex>
+        <startLine>269</startLine>
+        <startColumn>26</startColumn>
+        <endLine>269</endLine>
+        <endColumn>39</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to ListSelectetionChanged must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>270</line>
+        <index>9334</index>
+        <endIndex>9355</endIndex>
+        <startLine>270</startLine>
+        <startColumn>19</startColumn>
+        <endLine>270</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedIncome must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>270</line>
+        <index>9361</index>
+        <endIndex>9374</endIndex>
+        <startLine>270</startLine>
+        <startColumn>46</startColumn>
+        <endLine>270</endLine>
+        <endColumn>59</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>273</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedExpense must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>275</line>
+        <index>9473</index>
+        <endIndex>9487</endIndex>
+        <startLine>275</startLine>
+        <startColumn>26</startColumn>
+        <endLine>275</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to ListSelectetionChanged must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>276</line>
+        <index>9511</index>
+        <endIndex>9532</endIndex>
+        <startLine>276</startLine>
+        <startColumn>19</startColumn>
+        <endLine>276</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedExpense must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>276</line>
+        <index>9538</index>
+        <endIndex>9552</endIndex>
+        <startLine>276</startLine>
+        <startColumn>46</startColumn>
+        <endLine>276</endLine>
+        <endColumn>60</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>279</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedAccount must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>283</line>
+        <index>9726</index>
+        <endIndex>9740</endIndex>
+        <startLine>283</startLine>
+        <startColumn>17</startColumn>
+        <endLine>283</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedIncome must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>284</line>
+        <index>9765</index>
+        <endIndex>9778</endIndex>
+        <startLine>284</startLine>
+        <startColumn>17</startColumn>
+        <endLine>284</endLine>
+        <endColumn>30</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedExpense must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>285</line>
+        <index>9803</index>
+        <endIndex>9817</endIndex>
+        <startLine>285</startLine>
+        <startColumn>17</startColumn>
+        <endLine>285</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RaisePropertyChanged must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>287</line>
+        <index>9877</index>
+        <endIndex>9896</endIndex>
+        <startLine>287</startLine>
+        <startColumn>17</startColumn>
+        <endLine>287</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RaisePropertyChanged must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>288</line>
+        <index>9935</index>
+        <endIndex>9954</endIndex>
+        <startLine>288</startLine>
+        <startColumn>17</startColumn>
+        <endLine>288</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RaisePropertyChanged must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>289</line>
+        <index>9992</index>
+        <endIndex>10011</endIndex>
+        <startLine>289</startLine>
+        <startColumn>17</startColumn>
+        <endLine>289</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RaisePropertyChanged must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>290</line>
+        <index>10050</index>
+        <endIndex>10069</endIndex>
+        <startLine>290</startLine>
+        <startColumn>17</startColumn>
+        <endLine>290</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RaisePropertyChanged must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>291</line>
+        <index>10111</index>
+        <endIndex>10130</endIndex>
+        <startLine>291</startLine>
+        <startColumn>17</startColumn>
+        <endLine>291</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>299</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedIncome must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>303</line>
+        <index>10379</index>
+        <endIndex>10392</endIndex>
+        <startLine>303</startLine>
+        <startColumn>24</startColumn>
+        <endLine>303</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedExpense must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>303</line>
+        <index>10403</index>
+        <endIndex>10417</endIndex>
+        <startLine>303</startLine>
+        <startColumn>48</startColumn>
+        <endLine>303</endLine>
+        <endColumn>62</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedAccount must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>303</line>
+        <index>10428</index>
+        <endIndex>10442</endIndex>
+        <startLine>303</startLine>
+        <startColumn>73</startColumn>
+        <endLine>303</endLine>
+        <endColumn>87</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>308</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedIncome must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>312</line>
+        <index>10660</index>
+        <endIndex>10673</endIndex>
+        <startLine>312</startLine>
+        <startColumn>24</startColumn>
+        <endLine>312</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedExpense must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>312</line>
+        <index>10684</index>
+        <endIndex>10698</endIndex>
+        <startLine>312</startLine>
+        <startColumn>48</startColumn>
+        <endLine>312</endLine>
+        <endColumn>62</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to selectedAccount must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>312</line>
+        <index>10709</index>
+        <endIndex>10723</endIndex>
+        <startLine>312</startLine>
+        <startColumn>73</startColumn>
+        <endLine>312</endLine>
+        <endColumn>87</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>317</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>337</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Profiles must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>319</line>
+        <index>10892</index>
+        <endIndex>10899</endIndex>
+        <startLine>319</startLine>
+        <startColumn>13</startColumn>
+        <endLine>319</endLine>
+        <endColumn>20</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Profiles must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>323</line>
+        <index>11089</index>
+        <endIndex>11096</endIndex>
+        <startLine>323</startLine>
+        <startColumn>17</startColumn>
+        <endLine>323</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to SelectedProfile must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>331</line>
+        <index>11332</index>
+        <endIndex>11346</endIndex>
+        <startLine>331</startLine>
+        <startColumn>21</startColumn>
+        <endLine>331</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RaisePropertyChanged must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>332</line>
+        <index>11374</index>
+        <endIndex>11393</endIndex>
+        <startLine>332</startLine>
+        <startColumn>21</startColumn>
+        <endLine>332</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Profiles must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>326</line>
+        <index>11171</index>
+        <endIndex>11178</endIndex>
+        <startLine>326</startLine>
+        <startColumn>31</startColumn>
+        <endLine>326</endLine>
+        <endColumn>38</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>339</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The method must have an access modifier.</context>
+        <line>339</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Expenses must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>345</line>
+        <index>11800</index>
+        <endIndex>11807</endIndex>
+        <startLine>345</startLine>
+        <startColumn>13</startColumn>
+        <endLine>345</endLine>
+        <endColumn>20</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Incomes must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>346</line>
+        <index>11875</index>
+        <endIndex>11881</endIndex>
+        <startLine>346</startLine>
+        <startColumn>13</startColumn>
+        <endLine>346</endLine>
+        <endColumn>19</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Accounts must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>347</line>
+        <index>11948</index>
+        <endIndex>11955</endIndex>
+        <startLine>347</startLine>
+        <startColumn>13</startColumn>
+        <endLine>347</endLine>
+        <endColumn>20</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Expenses must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>351</line>
+        <index>12085</index>
+        <endIndex>12092</endIndex>
+        <startLine>351</startLine>
+        <startColumn>17</startColumn>
+        <endLine>351</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Incomes must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>356</line>
+        <index>12216</index>
+        <endIndex>12222</endIndex>
+        <startLine>356</startLine>
+        <startColumn>17</startColumn>
+        <endLine>356</endLine>
+        <endColumn>23</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Accounts must begin with the 'this.', 'base.', 'object.' or 'HomeViewModel.' or 'ViewModelBase.' prefix to indicate the intended method call. </context>
+        <line>361</line>
+        <index>12346</index>
+        <endIndex>12353</endIndex>
+        <startLine>361</startLine>
+        <startColumn>17</startColumn>
+        <endLine>361</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>365</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+</stylecopresultscache>

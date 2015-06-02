@@ -1,0 +1,141 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PlanningBudget.Windows.Views.Controls">
+
+    <Style
+        TargetType="local:CategoryItemControl">
+        <Setter
+            Property="Template">
+            <Setter.Value>
+                <ControlTemplate
+                    TargetType="local:CategoryItemControl">
+
+                    <Grid
+                        Width="86"
+                        Height="122">
+
+                        <StackPanel
+                            Visibility="{Binding Path=GeneralIconVisibility, RelativeSource={RelativeSource TemplatedParent}}">
+
+                            <Grid
+                                Margin="4">
+
+                                <Ellipse
+                                    Width="78"
+                                    Height="78"
+                                    Stroke="{Binding Path=BorderColor, RelativeSource={RelativeSource TemplatedParent}}"
+                                    StrokeThickness="3">
+
+                                    <Ellipse.Fill>
+                                        <LinearGradientBrush
+                                            EndPoint="0.5,0"
+                                            StartPoint="0.5,1">
+                                            <GradientStop
+                                                Color="{Binding Path=Color,
+                                        RelativeSource={RelativeSource TemplatedParent}}"
+                                                Offset="0" />
+                                            <GradientStop
+                                                Color="{Binding Path=Color,
+                                        RelativeSource={RelativeSource TemplatedParent}}"
+                                                Offset="{Binding Path=Percentage,
+                                        RelativeSource={RelativeSource TemplatedParent}}" />
+                                            <GradientStop
+                                                Color="Gray"
+                                                Offset="{Binding Path=Percentage,
+                                        RelativeSource={RelativeSource TemplatedParent}}" />
+                                            <GradientStop
+                                                Color="Gray"
+                                                Offset="1" />
+                                        </LinearGradientBrush>
+                                    </Ellipse.Fill>
+                                </Ellipse>
+
+                                <TextBlock
+                                    FontFamily="Segoe UI Symbol"
+                                    FontSize="30"
+                                    Text="{Binding Path=Icon, RelativeSource={RelativeSource TemplatedParent}}"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Margin="0, -14.4, 0, 0" />
+
+                                <TextBlock
+                                    FontSize="12"
+                                    Text="{Binding Path=Label, RelativeSource={RelativeSource TemplatedParent} }"
+                                    FontWeight="Bold"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Bottom"
+                                    Margin="12" />
+
+                            </Grid>
+
+                            <TextBlock
+                                Style="{StaticResource BaseTextBlockStyle}"
+                                Text="{Binding Path=Value, RelativeSource={RelativeSource TemplatedParent}}"
+                                HorizontalAlignment="Center"
+                                FontWeight="Bold">
+                                <TextBlock.Foreground>
+                                    <SolidColorBrush
+                                        Color="{Binding Path=Color,
+                                        RelativeSource={RelativeSource TemplatedParent}}" />
+                                </TextBlock.Foreground>
+                            </TextBlock>
+
+                            <TextBlock
+                                Margin="0,-5,0,0"
+                                Style="{StaticResource BaseTextBlockStyle}"
+                                Text="{Binding Path=SecondaryValue, RelativeSource={RelativeSource TemplatedParent}}"
+                                HorizontalAlignment="Center"
+                                FontSize="10"
+                                Foreground="Gray" />
+
+                        </StackPanel>
+
+                        <StackPanel
+                            Visibility="{Binding Path=AddIconVisibility, RelativeSource={RelativeSource TemplatedParent}}">
+
+                            <Grid
+                                Margin="4"
+                                Width="{Binding Path=Size, RelativeSource={RelativeSource TemplatedParent}}"
+                                Height="{Binding Path=Size, RelativeSource={RelativeSource TemplatedParent}}">
+
+                                <Ellipse
+                                    Stroke="White"
+                                    StrokeThickness="9"
+                                    Width="78"
+                                    Height="78"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center" />
+
+                                <Ellipse
+                                    Stroke="Gray"
+                                    StrokeThickness="3"
+                                    Width="72"
+                                    Height="72"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center" />
+
+                                <TextBlock
+                                    FontFamily="Segoe UI Symbol"
+                                    FontSize="30"
+                                    Text="&#xE109;"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Foreground="Gray" />
+                            </Grid>
+
+                            <TextBlock
+                                Style="{StaticResource BaseTextBlockStyle}"
+                                Text="Add"
+                                HorizontalAlignment="Center"
+                                Foreground="Gray" />
+
+                        </StackPanel>
+                    </Grid>
+
+
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="PlanningBudget.Windows.Views.HomeView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PlanningBudget.Windows.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="using:PlanningBudget.ViewModels.HomeView"
+    mc:Ignorable="d"
+    DataContext="{Binding Home, Source={StaticResource Locator}}">
+    
+    
+    <!--<Page.Resources>
+        <viewModel:HomeViewModel x:Name="ViewModel"/>
+    </Page.Resources>
+
+    <Page.DataContext>
+        <Binding Source="{StaticResource ViewModel}"/>
+    </Page.DataContext>-->
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock Text="{Binding Path=str, Mode=OneWay}" FontSize="88"/>
+        
+    </Grid>
+</Page>
+

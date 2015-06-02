@@ -1,0 +1,14 @@
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Core\PlanningBudget.Core.csproj;neutral
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Core\PlanningBudget.Core.csproj;neutral
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Core\PlanningBudget.Core.csproj;neutral
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.DataAccess\PlanningBudget.DataAccess.csproj;neutral
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.DataAccess\PlanningBudget.DataAccess.csproj;neutral
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Models\PlanningBudget.Models.csproj;neutral
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Models\PlanningBudget.Models.csproj;neutral
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Models\PlanningBudget.Models.csproj;neutral
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Models\PlanningBudget.Models.csproj;neutral
+E:\VisualStudioProjects\PlanningBudget\SQLite\SQLite.csproj;neutral
+E:\VisualStudioProjects\PlanningBudget\SQLite\SQLite.csproj;neutral
+E:\VisualStudioProjects\PlanningBudget\SQLite\SQLite.csproj;neutral
+E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.ViewModels\PlanningBudget.ViewModels.csproj;x86
+E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\PlanningBudget.Windows.csproj;x86

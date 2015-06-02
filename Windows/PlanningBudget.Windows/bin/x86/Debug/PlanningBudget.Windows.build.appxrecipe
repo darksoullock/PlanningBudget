@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VOOOTAYO</Machine>
+    <WindowsUser>Vasiliy</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>312f13f1-d3de-4565-ab2d-8fc6aeb2e070</PackageIdentityName>
+    <IntermediateOutputPath>E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\obj\x86\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\PlanningBudget.Windows.exe">
+      <PackagePath>PlanningBudget.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\packages\MvvmLightLibs.5.1.1.0\lib\windows81\GalaSoft.MvvmLight.dll">
+      <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\packages\MvvmLightLibs.5.1.1.0\lib\windows81\GalaSoft.MvvmLight.Extras.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\packages\MvvmLightLibs.5.1.1.0\lib\windows81\GalaSoft.MvvmLight.Platform.dll">
+      <PackagePath>GalaSoft.MvvmLight.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.DataAccess\bin\Debug\PlanningBudget.DataAccess.dll">
+      <PackagePath>PlanningBudget.DataAccess.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Models\bin\Debug\PlanningBudget.Models.dll">
+      <PackagePath>PlanningBudget.Models.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.ViewModels\bin\x86\Debug\PlanningBudget.ViewModels.dll">
+      <PackagePath>PlanningBudget.ViewModels.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.DataAccess\bin\Debug\PlanningBudget.Core.dll">
+      <PackagePath>PlanningBudget.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.DataAccess\bin\Debug\SQLite.dll">
+      <PackagePath>SQLite.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\SQLite.WinRT81\3.8.8.1\Redist\Debug\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\Assets\bg.png">
+      <PackagePath>Assets\bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Themes\Dictionary.xbf">
+      <PackagePath>Themes\Dictionary.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Views\AddExpenseView.xbf">
+      <PackagePath>Views\AddExpenseView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Views\AddIncomeView.xbf">
+      <PackagePath>Views\AddIncomeView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Views\ControlXamls\EditProfile.xbf">
+      <PackagePath>Views\ControlXamls\EditProfile.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Views\ControlXamls\MyDatePicker.xbf">
+      <PackagePath>Views\ControlXamls\MyDatePicker.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Views\ControlXamls\CategoryItemControl.xbf">
+      <PackagePath>Views\ControlXamls\CategoryItemControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Views\ControlXamls\HeaderControl.xbf">
+      <PackagePath>Views\ControlXamls\HeaderControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Views\ControlXamls\EditCategoryControl.xbf">
+      <PackagePath>Views\ControlXamls\EditCategoryControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Themes\Generic.xbf">
+      <PackagePath>Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Views\AddAccountView.xbf">
+      <PackagePath>Views\AddAccountView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Views\ControlXamls\ProfileTileControl.xbf">
+      <PackagePath>Views\ControlXamls\ProfileTileControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Views\ProfilesView.xbf">
+      <PackagePath>Views\ProfilesView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Views\TransactionListView.xbf">
+      <PackagePath>Views\TransactionListView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Views\AddCategoryView.xbf">
+      <PackagePath>Views\AddCategoryView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Views\AddTransactionView.xbf">
+      <PackagePath>Views\AddTransactionView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Views\EditCategoryView.xbf">
+      <PackagePath>Views\EditCategoryView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\Views\HomeView\HomeView.xbf">
+      <PackagePath>Views\HomeView\HomeView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\PlanningBudget.Windows.xr.xml">
+      <PackagePath>PlanningBudget.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VisualStudioProjects\PlanningBudget\Windows\PlanningBudget.Windows\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Resources\bin\Debug\PlanningBudget.Resources.dll
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Resources\bin\Debug\PlanningBudget.Resources.pdb
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Resources\bin\Debug\PlanningBudget.Resources.pri
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Resources\obj\Debug\PlanningBudget.Resources.dll
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Resources\obj\Debug\PlanningBudget.Resources.pdb
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Resources\obj\Debug\priconfig.xml
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Resources\obj\Debug\priconfig.xml.intermediate
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Resources\obj\Debug\layout.resfiles
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Resources\obj\Debug\layout.resfiles.intermediate
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Resources\obj\Debug\resources.resfiles
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Resources\obj\Debug\resources.resfiles.intermediate
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Resources\obj\Debug\pri.resfiles
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Resources\obj\Debug\pri.resfiles.intermediate
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Resources\obj\Debug\qualifiers.txt
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Resources\obj\Debug\qualifiers.txt.intermediate
+E:\VisualStudioProjects\PlanningBudget\Shared\PlanningBudget.Resources\obj\Debug\MultipleQualifiersPerDimensionFound.txt

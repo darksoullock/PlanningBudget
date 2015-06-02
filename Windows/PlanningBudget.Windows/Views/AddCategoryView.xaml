@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="PlanningBudget.Windows.Views.AddCategoryView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PlanningBudget.Windows.Views"
+    xmlns:my ="using:PlanningBudget.Windows.Views.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding AddCategory, Source={StaticResource Locator}}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="16*"/>
+            <RowDefinition Height="16*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*" MinWidth="50"/>
+            <ColumnDefinition Width="18*" MinWidth="152"/>
+            <ColumnDefinition Width="36*"/>
+        </Grid.ColumnDefinitions>
+
+        <my:HeaderControl
+            Grid.ColumnSpan="3"
+            Text="New category"
+            BackCommand="{Binding GoBackCommand, Mode=OneTime}"/>
+
+        <my:EditCategoryControl 
+            Grid.Row="1"
+            Grid.Column="1"
+            CategoryName="{Binding Name, Mode=TwoWay}"
+            Type="{Binding Type, Mode=TwoWay}"
+            Types="{Binding Types}"
+            IconColor="{Binding IconColor, Mode=TwoWay}"
+            IconColours="{Binding IconColours}"
+            Icon="{Binding Icon, Mode=TwoWay}"
+            Icons="{Binding Icons}"
+            SaveAndContinueCommand="{Binding SaveAndContinueCommand, Mode=OneTime}"
+            SaveAndReturnCommand="{Binding SaveAndReturnCommand, Mode=OneTime}"/>
+        
+    </Grid>
+</Page>

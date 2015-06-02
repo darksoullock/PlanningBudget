@@ -1,0 +1,17 @@
+E:\VisualStudioProjects\PlanningBudget\SQLite\bin\Debug\SQLite.dll
+E:\VisualStudioProjects\PlanningBudget\SQLite\bin\Debug\SQLite.pdb
+E:\VisualStudioProjects\PlanningBudget\SQLite\bin\Debug\SQLite.pri
+E:\VisualStudioProjects\PlanningBudget\SQLite\obj\Debug\SQLite.dll
+E:\VisualStudioProjects\PlanningBudget\SQLite\obj\Debug\SQLite.pdb
+E:\VisualStudioProjects\PlanningBudget\SQLite\obj\Debug\priconfig.xml
+E:\VisualStudioProjects\PlanningBudget\SQLite\obj\Debug\priconfig.xml.intermediate
+E:\VisualStudioProjects\PlanningBudget\SQLite\obj\Debug\layout.resfiles
+E:\VisualStudioProjects\PlanningBudget\SQLite\obj\Debug\layout.resfiles.intermediate
+E:\VisualStudioProjects\PlanningBudget\SQLite\obj\Debug\resources.resfiles
+E:\VisualStudioProjects\PlanningBudget\SQLite\obj\Debug\resources.resfiles.intermediate
+E:\VisualStudioProjects\PlanningBudget\SQLite\obj\Debug\pri.resfiles
+E:\VisualStudioProjects\PlanningBudget\SQLite\obj\Debug\pri.resfiles.intermediate
+E:\VisualStudioProjects\PlanningBudget\SQLite\obj\Debug\qualifiers.txt
+E:\VisualStudioProjects\PlanningBudget\SQLite\obj\Debug\qualifiers.txt.intermediate
+E:\VisualStudioProjects\PlanningBudget\SQLite\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\VisualStudioProjects\PlanningBudget\SQLite\obj\Debug\SQLite.csprojResolveAssemblyReference.cache

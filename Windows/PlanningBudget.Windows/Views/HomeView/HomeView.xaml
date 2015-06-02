@@ -1,0 +1,232 @@
+﻿<Page
+    x:Class="PlanningBudget.Windows.Views.HomeView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PlanningBudget.Windows.Views"
+    xmlns:my="using:PlanningBudget.Windows.Views.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="using:PlanningBudget.ViewModels.HomeView"
+    mc:Ignorable="d"
+    DataContext="{Binding Home, Source={StaticResource Locator}}">
+
+    <Page.Resources>
+        <ResourceDictionary>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary
+                    Source="/Themes/Dictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate
+                x:Key="AccountItemTemplate">
+                <my:CategoryItemControl
+                    Color="{Binding IconColor}"
+                    Label="{Binding Name}"
+                    Percentage="{Binding Percentage}"
+                    Icon="{Binding Icon}"
+                    Value="{Binding Balance}"
+                    IsAddIcon="{Binding IsAddIcon}" />
+            </DataTemplate>
+
+            <DataTemplate
+                x:Key="ExpenseItemTemplate">
+                <my:CategoryItemControl
+                    Color="{Binding IconColor}"
+                    Label="{Binding Name}"
+                    Percentage="{Binding Percentage}"
+                    Icon="{Binding Icon}"
+                    Value="{Binding Budget}"
+                    SecondaryValue="{Binding Spent}"
+                    IsAddIcon="{Binding IsAddIcon}" />
+            </DataTemplate>
+
+
+            <DataTemplate
+                x:Key="IncomeItemTemplate">
+                <my:CategoryItemControl
+                    Color="{Binding IconColor}"
+                    Label="{Binding Name}"
+                    Percentage="{Binding Percentage}"
+                    Icon="{Binding Icon}"
+                    Value="{Binding Value}"
+                    IsAddIcon="{Binding IsAddIcon}" />
+            </DataTemplate>
+
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Page.BottomAppBar>
+        <CommandBar
+            Background="#FF005AFF">
+            <AppBarButton
+                Label="Add account"
+                Icon="Account"
+                Command="{Binding Path=AddTransactionCommand, Mode=OneTime}" />
+            <AppBarButton
+                Label="Add Income"
+                Icon="Add"
+                Command="{Binding Path=AddTransactionCommand, Mode=OneTime}" />
+            <AppBarButton
+                Label="Add expense"
+                Icon="Add"
+                Command="{Binding Path=AddCategoryCommand, Mode=OneTime}" />
+            <AppBarButton
+                Label="Add transaction"
+                Icon="Add"
+                Command="{Binding Path=AddCategoryCommand, Mode=OneTime}" />
+
+            <CommandBar.SecondaryCommands>
+                <AppBarButton
+                    Visibility="{Binding IsNotCategorySelected}"
+                    Label="Profiles page"
+                    Icon="Account"
+                    Command="{Binding Path=GoToProfilesCommand, Mode=OneTime}" />
+                <AppBarButton
+                    Visibility="{Binding IsNotCategorySelected}"
+                    Label="Pin to start"
+                    Icon="Pin"
+                    Command="{Binding Path=PinToStartCommand, Mode=OneTime}" />
+                <AppBarButton
+                    Visibility="{Binding IsCategorySelected}"
+                    Label="Edit"
+                    Icon="Edit"
+                    Command="{Binding Path=EditCategoryCommand, Mode=OneTime}" />
+                <AppBarButton
+                    Visibility="{Binding IsCategorySelected}"
+                    Label="Delete"
+                    Icon="Delete"
+                    Command="{Binding Path=DeleteCategoryCommand, Mode=OneTime}" />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush
+                Stretch="Fill"
+                ImageSource="ms-appx:///Assets/bg.png" />
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition
+                Width="6*" />
+            <ColumnDefinition
+                Width="56*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="6*" />
+            <RowDefinition
+                Height="26*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock
+            VerticalAlignment="Bottom"
+            Grid.Column="1"
+            Text="Planning Budget"
+            FontSize="64"
+            Margin="0,0,0,28"
+            Foreground="Black" />
+
+        <ComboBox
+            BorderBrush="Gray"
+            Margin="28"
+            Grid.Column="1"
+            HorizontalAlignment="Right"
+            Width="200"
+            Height="40"
+            ItemsSource="{Binding Profiles}"
+            SelectedItem="{Binding SelectedProfile, Mode=TwoWay}"
+            ItemTemplate="{StaticResource ComboBoxProfileTemplate}" />
+
+        <Grid
+            Grid.Column="1"
+            Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+                    Width="1*" />
+                <ColumnDefinition
+                    Width="2*" />
+                <ColumnDefinition
+                    Width="2*" />
+                <ColumnDefinition
+                    Width="5*" />
+            </Grid.ColumnDefinitions>
+
+            <StackPanel
+                Grid.Column="0">
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    Text="Accounts >"
+                    FontSize="20"
+                    Foreground="Black"
+                    FontFamily="Segoe UI"
+                    Margin="0,0,0,12" />
+
+                <local:ExtendedGridView
+                    Height="600"
+                    Width="96"
+                    HorizontalAlignment="Stretch"
+                    ItemsSource="{Binding Accounts}"
+                    ItemTemplate="{StaticResource AccountItemTemplate}"
+                    ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                    SelectedIndex="{Binding Path=SelectedAccount, Mode=TwoWay}"
+                    local:ItemClickCommand.Command="{Binding AccounsClickCommand}"
+                    IsItemClickEnabled="True">
+                </local:ExtendedGridView>
+
+            </StackPanel>
+
+            <StackPanel
+                Grid.Column="1">
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    Text="Incomes >"
+                    FontSize="20"
+                    Foreground="Black"
+                    FontFamily="Segoe UI"
+                    Margin="0,0,0,12" />
+
+                <local:ExtendedGridView
+                    Width="192"
+                    Height="600"
+                    HorizontalAlignment="Stretch"
+                    ItemsSource="{Binding Incomes}"
+                    ItemTemplate="{StaticResource IncomeItemTemplate}"
+                    ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                    SelectedIndex="{Binding Path=SelectedIncome, Mode=TwoWay}"
+                    local:ItemClickCommand.Command="{Binding IncomesClickCommand}"
+                    IsItemClickEnabled="True" />
+            </StackPanel>
+
+            <StackPanel
+                Grid.Column="2">
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    Text="Expenses >"
+                    FontSize="20"
+                    Foreground="Black"
+                    FontFamily="Segoe UI"
+                    Margin="0,0,0,12" />
+
+                <local:ExtendedGridView
+                    Height="600"
+                    Width="192"
+                    HorizontalAlignment="Stretch"
+                    ItemsSource="{Binding Expenses}"
+                    ItemTemplate="{StaticResource ExpenseItemTemplate}"
+                    ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                    SelectedIndex="{Binding Path=SelectedExpense, Mode=TwoWay}"
+                    local:ItemClickCommand.Command="{Binding ExpensesClickCommand}"
+                    IsItemClickEnabled="True">
+                    <!--<GridView.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapGrid
+                                MaximumRowsOrColumns="3" />
+                        </ItemsPanelTemplate>
+                    </GridView.ItemsPanel>-->
+                </local:ExtendedGridView>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
